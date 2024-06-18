@@ -18,6 +18,9 @@ jobs:
 
     - name: Install packages
       run: npm install
+
+    - name: Download browsers
+      run: npx playwright install
     
     - name: Run Tests
       run: npx playwright test tests/ui.test.js
