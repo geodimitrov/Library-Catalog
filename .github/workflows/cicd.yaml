@@ -8,7 +8,7 @@ on:
 
 jobs:
 
-  test-app
+  test-app:
     name: Test app
     runs-on: ubuntu-latest
 
